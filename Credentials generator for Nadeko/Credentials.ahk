@@ -119,3 +119,4 @@ if FileExist("credentials.json")
 		MsgBox, 0, SoonTM, The program will now quit,3
 		ExitApp
 	}
+FileAppend, %Final%, %A_ScriptDir%\credentials.json
