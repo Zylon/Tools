@@ -112,7 +112,6 @@ if FileExist("credentials.json")
 	IfMsgBox Yes
 	{
 		FileDelete, %A_ScriptDir%\credentials.json
-		FileAppend, %Final%, %A_ScriptDir%\credentials.json
 	}
 	IfMsgBox No
 	{
@@ -120,3 +119,4 @@ if FileExist("credentials.json")
 		ExitApp
 	}
 FileAppend, %Final%, %A_ScriptDir%\credentials.json
+MsgBox, 0, Completed, The file was succesfully created.,5
