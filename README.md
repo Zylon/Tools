@@ -2,8 +2,7 @@
 ##First of all
 ###A disclaimer
 These tools are not 100% tested, if you run into any problems it is not my fault.
-
-¯\\_(ツ)_/¯
+#:^)
 
 If you happened to stumble on this page by accident or coincidence. 
 Most of this will mean nothing to you.
