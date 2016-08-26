@@ -1,4 +1,6 @@
-﻿MsgBox, 0, Attention!, If you do not know one of the API keys asked, just leave it blank.
+﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+MsgBox, 0, Attention!, If you do not know one of the API keys asked, just leave it blank.
 {InputBox, Token, Token, Please enter your bots Token here.
 if ErrorLevel
 {
