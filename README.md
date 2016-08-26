@@ -1,4 +1,10 @@
 #What?
+##First of all
+###A disclaimer
+These tools are not 100% tested, if you run into any problems it is not my fault.
+
+¯\_(ツ)_/¯
+
 If you happened to stumble on this page by accident or coincidence. 
 Most of this will mean nothing to you.
 
@@ -11,5 +17,8 @@ So you can either download the `.ahk` script and run it with AHK yourself, or if
 
 These are scripts that'll make your life just ever-so-slightly-less-annoying.
 
-#Credentials generator for Nadeko
+#Credentials generator for NadekoBot
 I made a small script that'll ask you for all the information needed to make the credentials file, and then create it in the same directory as the script was running in.
+
+#Custom Reactions tool for NadekoBot
+Another little tool that'll let you add custom reactions trough a little window (for now), the program has to be placed inside `NadekoBot.v*.**\data` (where the config.json file is located)
