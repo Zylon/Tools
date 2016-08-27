@@ -23,7 +23,8 @@ SetTitleMatchMode, 2
 {
 		MsgBox,, Error, This won't work, you need a "Trigger" and a "Response".
 		IfMsgBox OK
-			ExitApp
+			Reload
+			Exit
 }
 if (Response2 = "")
 {
