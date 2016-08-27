@@ -9,12 +9,12 @@ Gui, Add, Edit, vResponse W250
 Gui, Add, Button, +center, Submit
 Gui, Show, W270 H125, Add Custom Reaction
 return
-
+GuiClose:
+ExitApp
 ButtonSubmit:
 Gui Submit
 send, %Trigger%
 send, %Response%
-if (%Trigger% !=) {
 Final = 
 (
   "CustomReactions": {
@@ -29,9 +29,3 @@ FileRead, CRF, config.json
 	MsgBox,, Attention!, The Custom Reaction was added succesfully. (Be sure to restart the bot after adding Custom Reactions)
 	IfMsgBox OK
 		ExitApp
-}
-	else
-	{
-		MsgBox,, Error, Something went wrong, please try again.
-		ExitApp
-	}
