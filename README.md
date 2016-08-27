@@ -2,6 +2,8 @@
 ##First of all
 ###A disclaimer
 These tools are not 100% tested, if you run into any problems it is not my fault.
+
+For any bug reports and/or questions, use the Issues tab. or visit my [Discord server](https://discord.gg/sbZgha2)
 #:^)
 
 If you happened to stumble on this page by accident or coincidence. 
