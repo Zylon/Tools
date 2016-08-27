@@ -1,6 +1,8 @@
 ﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+SetTitleMatchMode, 2
+#IfWinActive, Add Custom Reaction
 if FileExist("config.json")
 {
 	Gui, Default
@@ -10,13 +12,13 @@ if FileExist("config.json")
 	Gui, Add, Edit, vResponse W250
 	Gui, Add, Button, +center, Submit
 	Gui, Show, W270 H125, Add Custom Reaction
+	Hotkey, Enter, ButtonSubmit, ON
 	return
 	GuiClose:
 		ExitApp
 	ButtonSubmit:
 		Gui Submit
-		send, %Trigger%
-		send, %Response%
+	Hotkey, Enter, Off
 Final = 
 (
 "CustomReactions": {
