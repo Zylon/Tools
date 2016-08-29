@@ -22,7 +22,7 @@ SetTitleMatchMode, 2
 	if (Trigger = "") or (Response = "")
 {
 		MsgBox,, Error, This won't work, you need a "Trigger" and a "Response".
-		IfMsgBox OK
+		IfMsgBox, OK
 			Reload
 			Exit
 }
@@ -54,12 +54,35 @@ if FileExist("config.json")
 	FileDelete, config.json
 	FileAppend, %Var1%, config.json
 	MsgBox,, Attention!, The Custom Reaction was added succesfully. (Be sure to restart the bot after adding Custom Reactions)
-		IfMsgBox OK
+		IfMsgBox, OK
 			Reload
+			Exit
 }
 	else
+	find_config:
 	{
-	MsgBox, 0, Attention!, Could not find the file "config.json", please place this program in the data folder and try again.
-		IfMsgBox OK
-			ExitApp
+	MsgBox, 0, Attention!, Could not find the file "config.json", please select the data folder.
+		IfMsgBox, OK
+			FileSelectFolder, CFF, *%A_ScriptDir%, 1, Select Folder - Data
+				if Errorlevel
+					ExitApp
+			CDR = %CFF%\config.json
+;			MsgBox,, DEBUG, you selected the folder %CFF% and CDR is %CDR%
+			if FileExist(CDR)
+			{
+				FileRead, CRF, %CDR%
+				StringReplace, Var1, CRF, "CustomReactions": {, %Final%
+				FileDelete, %CDR%
+				FileAppend, %Var1%, %CDR%
+				MsgBox,, Attention!, The Custom Reaction was added succesfully. (Be sure to restart the bot after adding Custom Reactions)
+				{
+					IfMsgBox, OK
+						Reload
+						Exit
+				}
+			}
+			else
+			{
+				goto, find_config
+			}
 	}
