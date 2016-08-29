@@ -22,10 +22,11 @@ These are scripts that'll make your life just ever-so-slightly-less-annoying.
 I made a small script that'll ask you for all the information needed to make the credentials file, and then create it in the same directory as the script was running in.
 
 #Custom Reactions tool for NadekoBot
-Another little tool that'll let you add custom reactions trough a little window (for now), the program has to be placed inside `NadekoBot.v*.**\data` (where the config.json file is located)
+Another tool that'll let you add custom reactions trough a window, the program can either be placed inside `NadekoBot.v*.**\data` (where the config.json file is located).
+Or somewhere else, and it will ask you about the position of the `config.json` file.
 
 #Installer for NadekoBot
 I'm currently trying to make an installer for Nadeko, It's only in Alpha right now because it isn't stable and only downloads the installation files. *(for now)*
 
-**Heads up**
+###Heads up
 If you are gonna try this installer, don't do other stuff like typing or actively changing window focus as this will result in the script crashing and not moving forward.
