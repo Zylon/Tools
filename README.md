@@ -22,7 +22,15 @@ Another tool that'll let you add custom reactions trough a window, the program c
 Or somewhere else, and it will ask you about the position of the `config.json` file.
 
 #Installer for NadekoBot
-I'm currently trying to make an installer for Nadeko, It's only in Alpha right now because it isn't stable and only downloads the installation files. *(for now)*
+I'm trying to make an installer for Nadeko, It's currently capable of:
+*Installing NadekoBot
+*Ask for credentials to automatically make the `credentials.json` file so you don't have to manually do that
+
+It's downsides:
+*Do **NOT** click wildly on other screens, just listen to some music or pay some more attention to your background while the installation is happening
+*Do **NOT** type! I am sorry for this, but right now there is a slight chance you time your keypress with a prompt and may interupt or cancel the progress and crash the script.
+
+Simply put, Just patiently wait for the install to be done, once it says "Succesfully installed NadekoBot" you're free to click and type all you want.
 
 ###Heads up
 If you are gonna try this installer, don't do other stuff like typing or actively changing window focus as this will result in the script crashing and not moving forward.
