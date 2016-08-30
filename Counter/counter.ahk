@@ -1,5 +1,6 @@
 ﻿#NoEnv
 SendMode Input
+SetBatchLines, -1
 StartTime := A_TickCount
 Loop
 {
