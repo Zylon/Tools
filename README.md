@@ -30,9 +30,10 @@ If you are gonna try this installer, don't do other stuff like typing or activel
 #Counter
 This is a mostly useless tool, it will run 1.000.000.000 loops and return you the time spend doing this.
 
-Fun fact:  
-Language | Time *in seconds*
---- | ---
-C | 2.12
-Python | 60.17
-AHK | Aprox 2.000.000
+Fun fact:
+
+Language | Time *in seconds* 
+--- | --- 
+C | 2.12 
+Python | 60.17 
+AHK | Aprox 1.000.000 
