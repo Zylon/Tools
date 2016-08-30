@@ -3,10 +3,18 @@
 ###A disclaimer
 These tools are not 100% tested, if you run into any problems it is not my fault.  
 For any bug reports and/or questions, use the Issues tab. or visit my [Discord server](https://discord.gg/sbZgha2)
-#:^)
 
-If you happened to stumble on this page by accident or coincidence.  
-Most of this will mean nothing to you.
+#Installer for NadekoBot
+I'm trying to make an installer for Nadeko, It's currently capable of:
+*Installing NadekoBot
+*Ask for credentials to automatically make the `credentials.json` file so you don't have to manually do that
+
+###Heads up!!
+It's downsides:
+*Do **NOT** click wildly on other screens, just listen to some music or pay some more attention to your background while the installation is happening
+*Do **NOT** type! I am sorry for this, but right now there is a slight chance you time your keypress with a prompt and may interupt or cancel the progress and crash the script.
+
+Simply put, Just patiently wait for the install to be done, once it says "Succesfully installed NadekoBot" you're free to click and type all you want.
 
 # Tools
 I'll upload mostly AHK scripts.  
@@ -20,20 +28,6 @@ I made a small script that'll ask you for all the information needed to make the
 #Custom Reactions tool for NadekoBot
 Another tool that'll let you add custom reactions trough a window, the program can either be placed inside `NadekoBot.v*.**\data` (where the config.json file is located).  
 Or somewhere else, and it will ask you about the position of the `config.json` file.
-
-#Installer for NadekoBot
-I'm trying to make an installer for Nadeko, It's currently capable of:
-*Installing NadekoBot
-*Ask for credentials to automatically make the `credentials.json` file so you don't have to manually do that
-
-It's downsides:
-*Do **NOT** click wildly on other screens, just listen to some music or pay some more attention to your background while the installation is happening
-*Do **NOT** type! I am sorry for this, but right now there is a slight chance you time your keypress with a prompt and may interupt or cancel the progress and crash the script.
-
-Simply put, Just patiently wait for the install to be done, once it says "Succesfully installed NadekoBot" you're free to click and type all you want.
-
-###Heads up
-If you are gonna try this installer, don't do other stuff like typing or actively changing window focus as this will result in the script crashing and not moving forward.
 
 #Counter
 This is a mostly useless tool, it will run 1.000.000.000 loops and return you the time spend doing this.
