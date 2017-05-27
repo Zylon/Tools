@@ -16,11 +16,17 @@ It's downsides:
 
 Simply put, Just patiently wait for the install to be done, once it says "Succesfully installed NadekoBot" you're free to click and type all you want.
 
-# Tools
+#Tools
 I'll upload mostly AHK scripts.  
 **(and compile them to .exe for all of you without AHK)**  
 So you can either download the `.ahk` script and run it with AHK yourself, or if you don't have/want AHK you can download the `.exe`.  
 These are scripts that'll make your life just ever-so-slightly-less-annoying.
+
+#"F11-Like" fullscreen script
+This script only works on monitors with the resolution `1920x1080` selected.
+It is activated by holding the left windows key down, and then left-clicking on a window. `LWIN + LMB`
+I recommend only using this script on windows that have a "Basic" title bar, like text editors and OBS.
+Rather than sophisticated windows like the GitHub tool for windows. This will most likely break them one way or another.
 
 #Credentials generator for NadekoBot
 I made a small script that'll ask you for all the information needed to make the credentials file, and then create it in the same directory as the script was running in.
@@ -29,8 +35,8 @@ I made a small script that'll ask you for all the information needed to make the
 Another tool that'll let you add custom reactions trough a window, the program can either be placed inside `NadekoBot.v*.**\data` (where the config.json file is located).  
 Or somewhere else, and it will ask you about the position of the `config.json` file.
 
-#Counter
-This is a mostly useless tool, it will run 1.000.000.000 loops and return you the time spend doing this.
+#Cycle Counter
+This is a mostly useless tool, it will run 1.000.000.000 cycles (loops) and return you the time spend doing this.
 
 Fun fact:
 
