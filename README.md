@@ -54,3 +54,5 @@ Do **NOT** click wildly on other screens, just listen to some music or pay some 
 Do **NOT** type! I am sorry for this, but right now there is a slight chance you time your keypress with a prompt and may interupt or cancel the progress and crash the script.
 
 Simply put, Just patiently wait for the install to be done, once it says "Succesfully installed NadekoBot" you're free to click and type all you want.
+
+# test
